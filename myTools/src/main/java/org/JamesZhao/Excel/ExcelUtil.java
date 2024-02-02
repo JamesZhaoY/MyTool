@@ -21,8 +21,8 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExcelTest {
-    private static final Log log = LogFactory.get(ExcelTest.class);
+public class ExcelUtil {
+    private static final Log log = LogFactory.get(ExcelUtil.class);
 
     /**
      * cellName在于借助poi的formula函数，给当前单元格设置函数，并利用计算器强制刷新计算出结果
